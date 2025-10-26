@@ -1,7 +1,7 @@
 'use client';
 
 import { useEffect, useMemo, useState } from 'react';
-import { motion, AnimatePresence } from 'framer-motion';
+import { motion, AnimatePresence } from '@/components/motion';
 import { calculateDistanceKm, DiscoveryFilters, sampleProfiles } from '@/lib/matching';
 import { Profile } from '@/types/profile';
 import { ProfileCard } from '@/components/ProfileCard';

@@ -1,7 +1,7 @@
 'use client';
 
 import Image from 'next/image';
-import { motion } from 'framer-motion';
+import { motion } from '@/components/motion';
 import { Profile } from '@/types/profile';
 
 interface ProfileCardProps {

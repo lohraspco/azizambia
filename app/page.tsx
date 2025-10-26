@@ -1,5 +1,7 @@
+'use client';
+
 import Link from 'next/link';
-import { motion } from 'framer-motion';
+import { motion } from '@/components/motion';
 import { SparklesIcon } from '@/components/icons/SparklesIcon';
 import { LocaleToggle } from '@/components/LocaleToggle';
 

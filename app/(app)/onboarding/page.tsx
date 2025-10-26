@@ -3,7 +3,7 @@
 import { useRouter } from 'next/navigation';
 import { ReactNode, useMemo, useState } from 'react';
 import { useForm, Controller } from 'react-hook-form';
-import { motion, AnimatePresence } from 'framer-motion';
+import { motion, AnimatePresence } from '@/components/motion';
 import { useT } from '@/providers/LocaleProvider';
 import { Profile } from '@/types/profile';
 
